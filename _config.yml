@@ -1,3 +1,4 @@
-# baseurl: /triar
+baseurl: /
+url: http://triaridis.com
 exclude: ['README.md', 'LICENSE']
 permalink: pretty
