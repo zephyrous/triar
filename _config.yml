@@ -1,0 +1,3 @@
+# baseurl: /triar
+exclude: ['README.md', 'LICENSE']
+permalink: pretty

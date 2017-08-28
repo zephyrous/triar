@@ -1,0 +1,48 @@
+.profile-tabs .lead {
+    font-size: 18px;
+}
+
+.header p.lead.text-center {
+    font-family: 'Niconne', cursive;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: #fff;
+    font-style: italic;
+    font-size: 3rem;
+}
+
+.navbar .navbar-nav .active {
+    background-color: #fff;
+    color: $purple-500;
+    border-radius: 0.25rem;
+
+    @media screen and (max-width: 768px) {
+        background-color: transparent;
+        color: inherit;
+        border-radius: 0;
+    }
+}
+
+.navbar .navbar-nav .navbar-item-custom {
+    &:hover {
+        border-bottom: 2px solid #fff;
+        color: #fff;
+
+        @media screen and (max-width: 768px) {
+            border-bottom: none;
+            color: inherit;
+        }
+    }
+}
+
+.contact-row {
+    margin-top: 50px;
+}
+
+.text-about{
+    line-height: 1.75;
+    font-size: 14.5px;
+    padding: 1rem 0 3rem;    
+}    
