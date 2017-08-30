@@ -11,6 +11,10 @@
     color: #fff;
     font-style: italic;
     font-size: 3rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 2.5rem;
+    }
 }
 
 .navbar .navbar-nav .active {
